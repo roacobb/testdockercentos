@@ -3,7 +3,8 @@ This respository is to test Docker container using Centos images.
 Instructions 
 
 This repo assumes that you have already downloaded Virtual Box (https://www.virtualbox.org/), Vagrant (http://www.vagrantup.com/), and Docker (https://www.docker.io/).
-'''
+
+```
 $git clone https://github.com/dotcloud/docker.git
 
 $cd docker
@@ -17,7 +18,7 @@ $touch Dockerfile
 $vim Dockerfile #copy Dockerfile from the repo
 
 $docker build .
-'''
+```
 
 UPDATE 
 
