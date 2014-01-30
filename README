@@ -17,3 +17,9 @@ This repo assumes that you have already downloaded Virtual Box (https://www.virt
     $vim Dockerfile #copy Dockerfile from the repo
 
     $docker build .
+
+UPDATE 
+
+Apache-Solr was added as well along with Python 2.7
+
+
