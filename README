@@ -5,19 +5,21 @@ Instructions
 This repo assumes that you have already downloaded Virtual Box (https://www.virtualbox.org/), Vagrant (http://www.vagrantup.com/), and Docker (https://www.docker.io/).
 
 ```
-$git clone https://github.com/dotcloud/docker.git
 
-$cd docker
+  $git clone https://github.com/dotcloud/docker.git
 
-$vagrant up
+  $cd docker
 
-$vagrant ssh
+  $vagrant up
 
-$touch Dockerfile
+  $vagrant ssh
 
-$vim Dockerfile #copy Dockerfile from the repo
+  $touch Dockerfile
 
-$docker build .
+  $vim Dockerfile #copy Dockerfile from the repo
+
+  $docker build .
+  
 ```
 
 UPDATE 
