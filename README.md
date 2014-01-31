@@ -4,7 +4,7 @@ This repo assumes that you have already downloaded Virtual Box (https://www.virt
 
 ## Instructions
 
-
+```
   $git clone https://github.com/dotcloud/docker.git
 
   $cd docker
@@ -19,8 +19,8 @@ This repo assumes that you have already downloaded Virtual Box (https://www.virt
 
   $docker build .
   
-
-
+```
+  
 ## UPDATE 
 
 Apache-Solr was added as well along with Python 2.7
