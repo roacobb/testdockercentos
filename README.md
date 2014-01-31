@@ -13,11 +13,7 @@ This repo assumes that you have already downloaded Virtual Box (https://www.virt
 
   $vagrant ssh
 
-  $touch Dockerfile
-
-  $vim Dockerfile //copy Dockerfile from the repo
-
-  $docker build .
+  $docker build github.com/roacobb/testdockercentos 
   
 ```
   
