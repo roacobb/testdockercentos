@@ -1,25 +1,23 @@
 This respository is to test Docker container using Centos images.
 
-Instructions 
-
 This repo assumes that you have already downloaded Virtual Box (https://www.virtualbox.org/), Vagrant (http://www.vagrantup.com/), and Docker (https://www.docker.io/).
-'''
-$git clone https://github.com/dotcloud/docker.git
 
-$cd docker
+## Instructions
 
-$vagrant up
+```
+  $git clone https://github.com/dotcloud/docker.git
 
-$vagrant ssh
+  $cd docker
 
-$touch Dockerfile
+  $vagrant up
 
-$vim Dockerfile #copy Dockerfile from the repo
+  $vagrant ssh
 
-$docker build .
-'''
-
-UPDATE 
+  $docker build github.com/roacobb/testdockercentos 
+  
+```
+  
+## UPDATE 
 
 Apache-Solr was added as well along with Python 2.7
 
