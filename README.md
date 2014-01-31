@@ -15,7 +15,7 @@ This repo assumes that you have already downloaded Virtual Box (https://www.virt
 
   $touch Dockerfile
 
-  $vim Dockerfile #copy Dockerfile from the repo
+  $vim Dockerfile //copy Dockerfile from the repo
 
   $docker build .
   
