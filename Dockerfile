@@ -1,4 +1,7 @@
-FROM ubuntu 
+#Version 1.0
+
+FROM ubuntu
+
 MAINTAINER Rodney Cobb <roacobb@gmail.com>
 
 
