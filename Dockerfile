@@ -17,6 +17,8 @@ EXPOSE 8983
 
 FROM centos
 
+RUN echo "deb http://vault.centos.org/6.4/updates/i386/Packages/"
+
 RUN yum -y update
 
 RUN yum -y groupinstall "Development Tools"
