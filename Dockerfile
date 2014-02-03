@@ -26,6 +26,8 @@ RUN yum -y install ncurses-devel readline-devel tk-devel
 RUN yum -y install net-tools nfs-utils openssl-devel
 RUN yum -y install git screen tmux wget zsh
 
+RUN curl -O http://vault.centos.org/RPM-GPG-KEY-CentOS-6
+
 RUN echo 'Defaults  secure_path=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin' >> /etc/sudoers.d
 
 RUN /usr/bin/curl -s 'http://www.python.org/download/releases/' | gawk 'match($0, /The current production versions are <strong>([0-9.]+)<\/strong>/, ary) {print ary[1]}' > PYTHON$
